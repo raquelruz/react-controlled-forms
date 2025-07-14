@@ -1,0 +1,55 @@
+.color-form-container {
+	max-width: 320px;
+	margin: 40px auto;
+	padding: 20px;
+	background: #fefefe;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+	font-family: Arial, sans-serif;
+}
+
+.color-form label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: 600;
+	color: #333;
+}
+
+.color-form select {
+	width: 100%;
+	padding: 8px 12px;
+	font-size: 1rem;
+	border: 1.5px solid #bbb;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	transition: border-color 0.3s ease;
+}
+
+.color-form select:focus {
+	border-color: #007bff;
+	outline: none;
+}
+
+.color-form button {
+	width: 100%;
+	padding: 10px;
+	background-color: #007bff;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: 700;
+	font-size: 1.1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.color-form button:hover {
+	background-color: #0056b3;
+}
+
+.message {
+	margin-top: 18px;
+	font-weight: 600;
+	text-align: center;
+	color: #222;
+}

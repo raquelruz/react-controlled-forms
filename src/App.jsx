@@ -4,6 +4,7 @@ import { CharacterCountForm } from './components/CharacterCountForm/CharacterCou
 import { ContactForm } from './components/ContactForm/ContactForm'
 import { NameGreetingForm } from './components/NameGreetingForm/NameGreetingForm'
 import { LoginForm } from './components/LoginForm/LoginForm'
+import { FavoriteColorForm } from './components/FavoriteColorForm/FavoriteColorForm'
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <AgeCheckForm />
 
       <LoginForm /> 
+
+      <FavoriteColorForm />
     </>
   )
 }
