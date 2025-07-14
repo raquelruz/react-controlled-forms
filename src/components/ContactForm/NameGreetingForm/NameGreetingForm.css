@@ -1,0 +1,52 @@
+.namegreeting-container {
+	max-width: 400px;
+	margin: 3rem auto;
+	padding: 2rem;
+	background-color: #f0f4ff;
+	border: 2px solid #c3dafe;
+	border-radius: 12px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.namegreeting-container input {
+	width: 70%;
+	padding: 0.7rem;
+	font-size: 1rem;
+	border: 1px solid #a0aec0;
+	border-radius: 8px;
+	outline: none;
+	transition: border-color 0.2s;
+}
+
+.namegreeting-container input:focus {
+	border-color: #4299e1;
+	box-shadow: 0 0 4px #90cdf4;
+}
+
+.namegreeting-container button {
+	margin-left: 0.5rem;
+	padding: 0.7rem 1.2rem;
+	font-size: 1rem;
+	background-color: #4299e1;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background-color 0.2s, transform 0.1s;
+}
+
+.namegreeting-container button:hover {
+	background-color: #3182ce;
+}
+
+.namegreeting-container button:active {
+	transform: scale(0.98);
+}
+
+.namegreeting-container p {
+	margin-top: 1.5rem;
+	font-size: 1.2rem;
+	color: #2d3748;
+}
