@@ -7,6 +7,7 @@ import { LoginForm } from './components/LoginForm/LoginForm'
 import { FavoriteColorForm } from './components/FavoriteColorForm/FavoriteColorForm'
 import { FeedbackForm } from './components/FeedbackForm/FeedbackForm'
 import { RatingForm } from './components/RatingForm/RatingForm'
+import { BookingForm } from './components/BookingForm/BookingForm'
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
       <FeedbackForm />
 
       <RatingForm />
+
+      <BookingForm />
     </>
   )
 }
