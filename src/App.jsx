@@ -8,6 +8,7 @@ import { FavoriteColorForm } from './components/FavoriteColorForm/FavoriteColorF
 import { FeedbackForm } from './components/FeedbackForm/FeedbackForm'
 import { RatingForm } from './components/RatingForm/RatingForm'
 import { BookingForm } from './components/BookingForm/BookingForm'
+import { CurrencyConverterForm } from './components/CurrencyConverterForm/CurrencyConverterForm'
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
       <RatingForm />
 
       <BookingForm />
+
+      <CurrencyConverterForm />
     </>
   )
 }
