@@ -1,0 +1,30 @@
+.charactercount-container {
+	padding: 1rem;
+	font-family: Arial, sans-serif;
+	max-width: 400px;
+	margin: 2rem auto;
+	border: 2px solid #ccc;
+	border-radius: 12px;
+	background-color: #f9f9f9;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.key-input {
+	padding: 0.5rem;
+	font-size: 16px;
+	width: 100%;
+	border: 1px solid #aaa;
+	border-radius: 6px;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.key-input:focus {
+	border-color: #007bff;
+}
+
+.key-info {
+	margin-top: 1rem;
+	font-size: 18px;
+	color: #333;
+}
