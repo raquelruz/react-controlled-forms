@@ -3,7 +3,7 @@ import { AgeCheckForm } from './components/AgeCheckForm/AgeCheckForm'
 import { CharacterCountForm } from './components/CharacterCountForm/CharacterCountForm'
 import { ContactForm } from './components/ContactForm/ContactForm'
 import { NameGreetingForm } from './components/NameGreetingForm/NameGreetingForm'
-import { AgeCheckForm } from './components/AgeCheckForm/AgeCheckForm'
+import { LoginForm } from './components/LoginForm/LoginForm'
 
 function App() {
   return (
@@ -15,6 +15,8 @@ function App() {
       <CharacterCountForm />
 
       <AgeCheckForm />
+
+      <LoginForm /> 
     </>
   )
 }
